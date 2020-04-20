@@ -1,9 +1,10 @@
-import add from '../math';
 import { assert } from 'chai';
+import add from '../math';
 
 describe('mocha', () => {
 
     it('fucking adds correctly', () => {
-        assert.isTrue(add(5, 5) === 10);
+        const result: number = add(5, 5);
+        assert.isTrue(result === 10);
     });
 })
