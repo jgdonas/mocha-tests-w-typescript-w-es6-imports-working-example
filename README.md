@@ -1,2 +1,19 @@
-# mocha-tests-w-typescript-w-es6-imports-working-example
-A simple empty project that make mocha tests work with typescript and ES6 imports
+# mocha-es6-typescript
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
