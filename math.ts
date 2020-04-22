@@ -1,3 +1,7 @@
-const add = (a: number, b: number): number => a + b
+import { app } from 'electron';
 
-export default add;
+const add = (a: number, b: number): number => a + b;
+
+const electronVersion = () => app.getVersion();
+
+export { add, electronVersion };
